@@ -1,3 +1,5 @@
+@file:JvmName("Utils")
+
 package org.jacoco.examples.maven.kotlin
 
 val String.doubleLen: Int
