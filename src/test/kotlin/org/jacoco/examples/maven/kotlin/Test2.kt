@@ -11,4 +11,8 @@ class Test2 : TestCase() {
     fun testDoubleLen() {
         Assert.assertEquals(22, "hello world".doubleLen)
     }
+
+    fun testBar() {
+        Assert.assertEquals("22", bar(2))
+    }
 }

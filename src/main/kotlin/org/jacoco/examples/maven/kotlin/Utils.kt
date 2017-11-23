@@ -8,3 +8,8 @@ val String.doubleLen: Int
 fun foo(i: Int): String {
     return (i * i).toString()
 }
+
+fun bar(i: Int): String {
+    val s = i.toString()
+    return s + s
+}
